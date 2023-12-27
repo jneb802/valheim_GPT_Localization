@@ -5,8 +5,8 @@ This repository contains a Python script to generate localizations using GPT. Th
 ## Requirements and dependencies
 1. Python >=3.7.1 
 2. GPT api key
-3. openai library
-4. python-dotenv library
+3. openai python library
+4. python-dotenv python library
 
 ## How to Install and Run
 
