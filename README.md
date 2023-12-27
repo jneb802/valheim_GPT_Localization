@@ -1,6 +1,6 @@
 ## Valheim GPT Localization Script
 
-This repository contains a Python script to generate localizations using GPT. The output is a folder of JSON files that are compatible with both Jotunn and Blaxxun-boop's LocalizationManager. The script uses the gpt-3.5-turbo-1106 GPT model.
+This repository contains a quick and easy Python script to generate localizations using GPT. The output is a folder of JSON files that are compatible with both Jotunn and Blaxxun-boop's LocalizationManager. The script uses the gpt-3.5-turbo-1106 GPT model.
 
 ## Requirements and dependencies
 1. Python >=3.7.1 
@@ -20,7 +20,7 @@ This repository contains a Python script to generate localizations using GPT. Th
 6. In the root directory, replace `English_yourModNameHere.json` with your base language JSON file.
 7. In the valheimLocalization.py file, change the `'English_yourModNameHere.json'` argument to the file name of your base language JSON file.
 8. In the valheimLocalization.py file, change the `'ExampleMod'` argument to your mod name.
-8. Run the file `python valheimLocalization.py`
+8. Run the file `valheimLocalization.py`
 9. A new folder titled 'Translations' will be created in your projects root directory. 
 
 You can generate localizations for many languages or just one. In `valheimLocalization.py`, the list `valheim_languages` contains all the languages supported by Valheim. Adjust this list to select which languages to generate. For a single language, modify the list to include only that language. To add more languages, append them to the list.
