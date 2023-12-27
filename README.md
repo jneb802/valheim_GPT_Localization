@@ -2,6 +2,8 @@
 
 This repository contains a Python script to generate localizations using GPT. The output is a folder of JSON files that are compatible with both Jotunn and Blaxxun-boop's LocalizationManager.
 
+This script requires a GPT api key.
+
 GPT model used = gpt-3.5-turbo-1106
 
 ## How to Install and Run
@@ -10,8 +12,8 @@ GPT model used = gpt-3.5-turbo-1106
 2. Install dependencies:
     - `pip install openAI`
     - `pip install python-dotenv`
-3. Create an `.env` file in the root directory.
-4. Sign up for a GPT API key [here](https://auth0.openai.com/u/signup/identifier?state=hKFo2SBpUEIxZ1pVY29xaGxmRDFITWJ1MDJtSE1XYW9mTkl5UqFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIHV4QkpPTkg2aXlVSi13VjhrWmluMzdBaWhHZkh5RFJIo2NpZNkgRFJpdnNubTJNdTQyVDNLT3BxZHR3QjNOWXZpSFl6d0Q).
+3. Sign up for a GPT API key [here](https://auth0.openai.com/u/signup/identifier?state=hKFo2SBpUEIxZ1pVY29xaGxmRDFITWJ1MDJtSE1XYW9mTkl5UqFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIHV4QkpPTkg2aXlVSi13VjhrWmluMzdBaWhHZkh5RFJIo2NpZNkgRFJpdnNubTJNdTQyVDNLT3BxZHR3QjNOWXZpSFl6d0Q).
+4. Create an `.env` file in the root directory.
 5. In your `.env` file, enter your API key as `OPENAI_API_KEY='your_api_key'`.
 6. In the root directory, replace `English_yourModNameHere.json` with your base language JSON file.
 7. In the valheimLocalization.py file, change the `'English_yourModNameHere.json'` argument to the file name of your base language JSON file.
