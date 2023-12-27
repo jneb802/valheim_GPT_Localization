@@ -1,10 +1,12 @@
 ## Valheim GPT Localization Script
 
-This repository contains a Python script to generate localizations using GPT. The output is a folder of JSON files that are compatible with both Jotunn and Blaxxun-boop's LocalizationManager.
+This repository contains a Python script to generate localizations using GPT. The output is a folder of JSON files that are compatible with both Jotunn and Blaxxun-boop's LocalizationManager. The script uses the gpt-3.5-turbo-1106 GPT model.
 
-This script requires a GPT api key.
-
-GPT model used = gpt-3.5-turbo-1106
+## Requirements and dependencies
+1. Python >=3.7.1 
+2. GPT api key
+3. openai library
+4. python-dotenv library
 
 ## How to Install and Run
 
