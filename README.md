@@ -10,7 +10,7 @@ GPT model used = gpt-3.5-turbo-1106
 
 1. Clone this repository to your local device.
 2. Install dependencies:
-    - `pip install openAI`
+    - `pip install openai`
     - `pip install python-dotenv`
 3. Sign up for a GPT API key [here](https://auth0.openai.com/u/signup/identifier?state=hKFo2SBpUEIxZ1pVY29xaGxmRDFITWJ1MDJtSE1XYW9mTkl5UqFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIHV4QkpPTkg2aXlVSi13VjhrWmluMzdBaWhHZkh5RFJIo2NpZNkgRFJpdnNubTJNdTQyVDNLT3BxZHR3QjNOWXZpSFl6d0Q).
 4. Create an `.env` file in the root directory.
